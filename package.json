@@ -1,0 +1,28 @@
+{
+  "name": "dictionary-tool",
+  "version": "1.0.0",
+  "description": "Command line dictionary tool using https://fourtytwowords.herokuapp.com",
+  "main": "master.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viswanath19/WordDictionary.git"
+  },
+  "keywords": [
+    "wordnik",
+    "node.js",
+    "dictionary"
+  ],
+  "author": "Pulkit",
+  "license": "ISC",
+  "homepage": "https://github.com/viswanath19/WordDictionary/blob/master/README.md",
+  "dependencies": {
+    "async-waterfall": "^0.1.5",
+    "colors": "^1.1.2",
+    "deferred": "^0.7.5",
+    "requestify": "^0.2.4",
+    "underscore": "^1.8.3"
+  }
+}
