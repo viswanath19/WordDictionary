@@ -1,7 +1,10 @@
 var USERACTION       = require('readline');
 
-// local imports to messages to Show up the initial message
-var MESSAGE_ROUTING= require(__dirname + '/utils/message.js')
+// local imports
+var MESSAGE_ROUTING= require(__dirname + '/utils/message.js'),
+    ROUTES         = require(__dirname + '/routes/routes'),
+    CONFIG         = require(__dirname + '/conf/appConf.js'),
+    GAME_STATE     = require(__dirname + '/utils/gameState.js');
 
 
 // creating a command line interface for interaction with user
