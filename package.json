@@ -23,6 +23,6 @@
     "colors": "^1.1.2",
     "deferred": "^0.7.5",
     "requestify": "^0.2.4",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   }
 }
